@@ -1,5 +1,3 @@
-
-
 #include<stdio.h>
 
 int GCD(int A, int B) {
@@ -11,12 +9,10 @@ int GCD(int A, int B) {
 
 int main(){
 
-  int a;
-  int b;
+  int a,b;
   cin>>a;
   cin>>b;
   int c = GCD(a,b);
-
   cout<<c<<endl;
 
 }
